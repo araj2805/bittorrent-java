@@ -56,7 +56,7 @@ public class Main {
     else {
       throw new RuntimeException("Only strings are supported at the moment");
     }
-    return gson.toJson(decoded);
+    return decoded;
   }
 
   Object decodeBencoded(String bencodedString) {
